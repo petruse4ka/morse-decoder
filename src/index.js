@@ -62,7 +62,7 @@ function decode(expr) {
         }
     }
 
-    let result = arrFilter.join('');
+    let result = arrFilter.join();
 
     return result;
 }
